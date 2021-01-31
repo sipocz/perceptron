@@ -106,6 +106,6 @@ class perceptron:
 X=[[0,0],[0,1],[1,0],[1,1]]
 y=[0,0,0,1]
 pcn=perceptron()
-pcn.fit(X,y,n_epochs=1000)
+pcn.fit(X,y,n_epochs=30)
 print(pcn.predict(X))
 
